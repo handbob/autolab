@@ -5,30 +5,32 @@
 - [Node](https://nodejs.org)
 - [Playwright](https://playwright.dev)
 
-#### Run all tests
+#### Runs the end-to-end tests
 * Windows, macOS/Linux
+```
 npx playwright test
+```
 
-#### Run a specific test
+#### Starts the interactive UI mode
 * Windows, macOS/Linux
 ```
-npx playwright test tests/your-test-file.spec.js
+npx playwright test --ui
 ```
 
-#### Generate and view test report
+#### Runs the tests only on Desktop Chrome
+* Windows, macOS/Linux
+```
+npx playwright test --project=chromium
+```
+
+#### Auto generate tests with Codegen
+* Windows, macOS/Linux
+```
+npx playwright codegen
+```
+
+#### To open last HTML report run
 * Windows, macOS/Linux
 ```
 npx playwright show-report
-```
-
-#### Run development tests with watch mode
-* Windows, macOS/Linux
-```
-npx playwright test --watch
-```
-
-#### Run tests in headless mode
-* Windows, macOS/Linux
-```
-npx playwright test --headless
 ```

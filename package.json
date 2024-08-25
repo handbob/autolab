@@ -1,0 +1,15 @@
+{
+  "name": "autolab",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-ui": "npx playwright test --ui",
+    "test-chromium": "npx playwright test --project=chromium",
+    "test-codegen": "npx playwright codegen",
+    "test-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0"
+  }
+}
