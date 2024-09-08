@@ -8,29 +8,29 @@
 #### Runs the end-to-end tests
 * Windows, macOS/Linux
 ```
-npx playwright test
+npm run test
 ```
 
 #### Starts the interactive UI mode
 * Windows, macOS/Linux
 ```
-npx playwright test --ui
+npm run test-ui
 ```
 
 #### Runs the tests only on Desktop Chrome
 * Windows, macOS/Linux
 ```
-npx playwright test --project=chromium
+npm run test-chromium
 ```
 
 #### Auto generate tests with Codegen
 * Windows, macOS/Linux
 ```
-npx playwright codegen
+npm run test-codegen
 ```
 
 #### To open last HTML report run
 * Windows, macOS/Linux
 ```
-npx playwright show-report
+npm run test-report
 ```
