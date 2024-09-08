@@ -9,7 +9,7 @@
     "test-report": "npx playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.46.1",
-    "@types/node": "^22.5.0"
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
   }
 }
